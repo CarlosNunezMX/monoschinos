@@ -1,0 +1,20 @@
+{
+  "name": "monoschinos",
+  "module": "index.ts",
+  "type": "module",
+  "engines": {
+    "node": ">18.0.0",
+    "bun": ">1.0.0"
+  },
+  "devDependencies": {
+    "@types/he": "^1.2.3",
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "he": "^1.2.0",
+    "node-html-parser": "^6.1.11"
+  }
+}
