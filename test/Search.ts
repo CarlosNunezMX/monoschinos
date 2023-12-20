@@ -1,4 +1,4 @@
-import { Search } from "../scrappers/search";
+import { Search } from "../source/scrappers/search";
 
 let results = await Search("boku");
 

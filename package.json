@@ -1,14 +1,38 @@
 {
   "name": "monoschinos",
-  "module": "index.ts",
+  "main": "dist/index.js",
+  "module": "source/index.ts",
+  "description": "Just another MonosChinos Scrapper",
+  "author": "CarlosNunezMX",
+  "license": "ISC",
+  "version": "0.5.1",
+  "files": [
+    "dist",
+    "types"
+  ],
+  "scripts": {
+    "build": "tsc"
+  },
   "type": "module",
   "engines": {
     "node": ">18.0.0",
     "bun": ">1.0.0"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CarlosNunezMX/monoschinos.git"
+  },
+  "keywords": [
+    "anime",
+    "monoschinos",
+    "monoschinos scrapper",
+    "anime spanish",
+    "anime español"
+  ],
   "devDependencies": {
     "@types/he": "^1.2.3",
-    "bun-types": "latest"
+    "bun-types": "latest",
+    "typescript": "^5.3.3"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"

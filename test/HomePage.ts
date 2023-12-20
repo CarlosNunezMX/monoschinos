@@ -1,4 +1,4 @@
-import { HomePage } from "../scrappers/homePage";
+import { HomePage } from "../source/scrappers/homePage";
 
 console.time("HomePage")
 let home = await HomePage();
